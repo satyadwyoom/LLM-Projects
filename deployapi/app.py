@@ -6,7 +6,7 @@ import uvicorn
 import os
 from langchain_community.llms.ollama import Ollama
 
-os.environ["OPENAI_API_KEY"] = "sk-proj-LGDFMSNL2gwhwrAawwOJT3BlbkFJRzIoUGJljjTapYMr3YHJ"
+os.environ["OPENAI_API_KEY"] = ""
 
 app = FastAPI(title="Langchain server test",
               version="1.0",
